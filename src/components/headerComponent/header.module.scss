@@ -1,0 +1,179 @@
+//  Primary color : #004DB3
+// Neutral Color: #A1A1A1
+.headerWrapper {
+  background-color: #004db3;
+  //   height: 100vh;
+  color: #fff;
+  padding: 10px;
+  position: relative;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+}
+.logo {
+  width: 55px;
+  height: 20px;
+  margin: 0;
+}
+.logoImage {
+  height: 100%;
+  width: 100%;
+}
+.dropDownContainer {
+  height: 30px;
+  width: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.dropDownBar {
+  height: 2px;
+  width: 80%;
+  margin: 2px auto;
+  background-color: #fff;
+}
+// .headerHeading {
+// }
+.headingSmall {
+  font-size: 15px;
+  font-weight: 100;
+  margin-top: 20px;
+}
+
+.arrowRight {
+  margin: 0 5px;
+}
+
+.previewImagesWrapper {
+  margin-top: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.imageWrapper {
+  display: flex;
+  width: 150px;
+}
+
+.imageFigure {
+  margin: 0;
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+}
+.figure1 {
+  z-index: 0;
+}
+.figure2 {
+  z-index: 2;
+}
+.figure3 {
+  z-index: 3;
+}
+.figure4 {
+  z-index: 4;
+}
+.figure5 {
+  z-index: 5;
+}
+.figure1,
+.figure2,
+.figure3,
+.figure4,
+.figure5 {
+  margin-left: -10px;
+}
+// .previewWrapper {
+// }
+.previews {
+  font-size: 20px;
+  font-weight: bold;
+}
+.previewSpan {
+  font-size: 12px;
+}
+.heroImageContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  position: relative;
+}
+.heroFigure {
+  margin: 0;
+  width: 300px;
+  height: 400px;
+}
+.heroImage {
+  width: 100%;
+  height: 100%;
+}
+
+.vsCode {
+  position: absolute;
+  right: 30px;
+  top: 10%;
+}
+.triangleVector {
+  position: absolute;
+  right: 32px;
+  top: 40%;
+  width: 18px;
+  height: 15px;
+}
+.wLogoWrapper {
+  width: 50px;
+  height: 50px;
+  background-color: #fff;
+  border-radius: 5px;
+  margin: 0;
+  position: absolute;
+  right: 10px;
+  top: 88%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.curlyArrowRight {
+  position: absolute;
+  right: 2%;
+  top: -20%;
+  margin: 0;
+}
+.curlyArrowImage {
+  width: 25px;
+  height: 70px;
+}
+
+.lightBulb {
+  position: absolute;
+  top: 0%;
+  left: -14%;
+}
+.smallCircle {
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  top: 35%;
+  left: 8%;
+}
+.secondLogo {
+  position: absolute;
+  top: 58%;
+  left: 2%;
+}
+.smallestCircleLogo {
+  position: absolute;
+  top: 90%;
+  left: 10%;
+}
+.swigglyLineLogo {
+  position: absolute;
+  top: 0;
+  left: 2px;
+}
